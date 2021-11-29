@@ -7,6 +7,4 @@
 <br>
 [Discord JS Bot V2](https://github.com/Paraffin-Team/Discord_JS_Bot_V2)
 <br>
-[Discord JS Bot V3](https://github.com/Paraffin-Team/Discord_JS_Bot_V3_V4)
-<br>
-**[Discord JS Bot V4](https://github.com/Paraffin-Team/Discord_JS_Bot_V3_V4)**
+**[Discord JS Bot V3](https://github.com/Paraffin-Team/Discord_JS_Bot_V3_V4)**
