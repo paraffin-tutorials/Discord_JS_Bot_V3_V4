@@ -1,10 +1,9 @@
 const axios = require('axios')
 
-module.exports.run = async (app, message, args) => {
-
-
-    let getInfo = async () => {
-
+module.exports.run = async (app, message, args) => 
+{
+    let getInfo = async () => 
+    {
         let api = await axios.get('http://gahshomar-api.herokuapp.com/date/jalali')
         let info = api.data;
 
@@ -13,13 +12,12 @@ module.exports.run = async (app, message, args) => {
 
     let resp = await getInfo();
 
-
-
     message.delete();
     message.channel.send(resp)
 }
 
-module.exports.help = {
+module.exports.help = 
+{
     name : "date",
     aliases : ["d"]
 }
