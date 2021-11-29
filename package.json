@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security",
+    "quick.db": "^7.1.3"
+  }
+}
