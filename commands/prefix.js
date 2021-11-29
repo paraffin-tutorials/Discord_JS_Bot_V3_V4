@@ -1,8 +1,7 @@
 const db = require('quick.db')
 
-module.exports.run = async (app, message, args) => {
-
-
+module.exports.run = async (app, message, args) => 
+{
     let adminperm = message.member.hasPermission("ADMINISTRATOR")
     if(!adminperm) return message.channel.send('شما پریمیشن ادمینی ندارید')
 
@@ -15,7 +14,8 @@ module.exports.run = async (app, message, args) => {
     message.channel.send(`پریفیکس بات تغییر یافت به ${Args0}`)
 }
 
-module.exports.help = {
+module.exports.help = 
+{
     name : "prefix",
     aliases : ["p"]
 }
